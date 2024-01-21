@@ -1,0 +1,39 @@
+.table {
+  margin-top: center;
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+// Стили для заголовков таблицы
+th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+}
+
+
+
+// Стили для ячеек таблицы
+td {
+  padding: 15px;
+  border: 1px solid ;
+  text-align: left;
+	background-color: green;
+
+  &:hover {
+    background-color: gold;
+  }
+
+  button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}

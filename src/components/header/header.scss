@@ -1,0 +1,45 @@
+// header.scss
+.header {
+  background-color: #121212; // Цвет фона
+  color: #fff; // Цвет текста
+  padding: 5px; // Внутренний отступ
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1, p, button {
+    margin: 10px 10px; // Расстояние сверху и снизу для всех элементов
+  }
+}
+
+
+h1 {
+  margin: 5; // Убираем внешний отступ у h1
+  font-size: 1rem;
+	margin-left: 30%;
+}
+
+p {
+  margin: 0; // Убираем внешний отступ у параграфа
+  font-size: 1rem;
+	margin-right: 35%;
+}
+
+button {
+  padding: 8px 12px; // Внутренний отступ кнопки
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4caf50; // Цвет фона кнопки
+  color: #fff; // Цвет текста кнопки
+  border: none;
+  border-radius: 5px; // Закругление углов
+  transition: background-color 0.3s ease; // Плавное изменение цвета фона при наведении
+
+  &:hover {
+    background-color: blue; // Цвет фона при наведении
+  }
+}
